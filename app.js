@@ -29,6 +29,7 @@ while (true) {
             alert("Enter a valid index!")
         }
         else {
+            console.log("Successfully removed item");
             todoList.splice(remove, 1);
         }
     }
